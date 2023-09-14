@@ -1,0 +1,24 @@
+/* COMMON STYLES */
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+header, main, footer{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+/* INDIVIDUAL STYLES */
+header{
+    width: 100vw;
+}
